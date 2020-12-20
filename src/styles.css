@@ -129,7 +129,7 @@ app-top-bar h1 {
   min-width: 400px;
   max-width: 450px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   padding: 16px 32px;
   margin-bottom: 8px;
