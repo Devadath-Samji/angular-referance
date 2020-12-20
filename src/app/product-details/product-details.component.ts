@@ -39,6 +39,7 @@ ngOnInit() :void {
 }
 addToCartInComponent(product){
 this.cartService.addToCartInService(product);
-  window.alert('Component : Your product has been added to the cart!');
+  // window.alert('Component : Your product has been added to the cart!');
+  console.log('Component : Your product has been added to the cart!');
 }
 }
